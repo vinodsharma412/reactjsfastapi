@@ -1,0 +1,56 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.Python
+
+# Virtual environments
+backend/venv/
+.venv/
+
+# ── Secrets / environment ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ── Runtime files ─────────────────────────────────────────────────────────────
+worker.pid
+*.db
+*.sqlite3
+
+# ── Node / React ──────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.production.local
+npm-debug.log*
+yarn-error.log*
+
+# ── Static uploads ────────────────────────────────────────────────────────────
+backend/static/avatars/*
+!backend/static/avatars/.gitkeep
+backend/app/static/avatars/*
+!backend/app/static/avatars/.gitkeep
+
+# ── Claude Code settings (may contain DB passwords in allowed command list) ───
+.claude/
+
+# ── Test / coverage ───────────────────────────────────────────────────────────
+.pytest_cache/
+backend/test.db
+.coverage
+htmlcov/
+
+# ── IDE / OS ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
