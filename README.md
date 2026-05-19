@@ -1,4 +1,4 @@
-# ERP — React + FastAPI Full-Stack Application
+# React js + FastAPI Full-Stack Application
 
 A full-stack business management application with role-based access control, user management, dynamic menus, a real-time Amazon product scraper, and an AI-powered email action centre.
 
